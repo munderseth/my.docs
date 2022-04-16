@@ -1,2 +1,2 @@
-# my.docs
-Docsite for technical notes
+# My Docs
+Docsite for capturing technical notes and reference examples.
