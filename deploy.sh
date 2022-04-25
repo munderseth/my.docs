@@ -1,3 +1,4 @@
 GIT_USER=munderseth \
-  CURRENT_BRANCH=main \
+  DEPLOYMENT_BRANCH=docsite-pages \
+  USE_SSH=true \
   yarn deploy
