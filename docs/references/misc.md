@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Notes
+# Misc
 
-## Working with Excel
+## Excel
 
 - To create a newline within a cell use `<alt><cr>`
 - How to convert a *hyper-link* cell to plain text using the URL text
@@ -29,3 +29,6 @@ sidebar_position: 1
      ```
   - Press **F5** to run the code
   - Link to the article - https://www.extendoffice.com/documents/excel/1177-excel-extract-hyperlink-from-cell.html
+
+### CSV
+TBD
