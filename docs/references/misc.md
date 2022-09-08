@@ -2,7 +2,13 @@
 sidebar_position: 1
 ---
 
-# Misc
+# Styling 
+
+- [Indenting 2nd lin of List Items](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/)
+
+## Emojis
+- Hex/HTML Codes - https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma
+  - Example usage - &#x1F499; Blue Heart
 
 ## Excel
 
