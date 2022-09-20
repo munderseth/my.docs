@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/munderseth.jpg',
-  
+  trailingSlash: false,
   presets: [
     [
       '@docusaurus/preset-classic',
