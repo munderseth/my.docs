@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[82],{2512:function(e){e.exports=JSON.parse('{"title":"Repos","description":"Repo references.","slug":"/category/repos","permalink":"/my.docs/category/repos","navigation":{"previous":{"title":"NPM","permalink":"/my.docs/references/npm"},"next":{"title":"Page 1","permalink":"/my.docs/repos/page1"}}}')}}]);
