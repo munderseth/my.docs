@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Styling 
+# Misc. Stuff
 
 - [Indenting 2nd lin of List Items](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/)
 
@@ -38,3 +38,31 @@ sidebar_position: 1
 
 ### CSV
 TBD
+
+## Images
+
+- `SVG` - Scalable Vector Graphics in an **XML-based** vector image format
+- `transparent background` - nothing in the background pixels
+
+The following is a tool used to convert `img` to `svg` - https://picsvg.com/
+
+## Upgrading WSL
+WSL - Windows Subsystem Linux
+
+- https://dev.to/adityakanekar/upgrading-from-wsl1-to-wsl2-1fl9 - how to upgrade
+- [reset password](https://itsfoss.com/reset-linux-password-wsl/)
+
+### Setup
+
+- https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
+- https://scottspence.com/posts/use-chrome-in-ubuntu-wsl - getting **Puppeteer** to launch
+
+#### Environment Variables
+
+- $ sudo vim ~/.bashrc
+- Enter your password.
+- Press i to go into edit mode. ...
+- Add your variable as `export API_KEY=123` at the end of the file. ...
+- Press esc key to get out of edit mode.
+- Enter `:wq` and press enter . ...
+- $ source ~/.bashrc

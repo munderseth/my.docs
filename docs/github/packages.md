@@ -2,11 +2,35 @@
 sidebar_position: 3
 ---
 
-# Packages
-Running notes for GitHub.
+# NPM
+Notes are focused on the GitHub [npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry) usage.
 
-Reference - [npm registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+## Basics
+Some basic info.
 
+Setup initial package .json file
+```
+npm init -y
+```
+
+Save packages under teh `devDependencies` object in package .json file. Not install when production used.
+```
+npm install --save-dev <package name>
+```
+Only production installation
+```
+npm install --production
+```
+
+### Updates
+
+- Reference info on [stackoverflow](https://stackoverflow.com/questions/16073603/how-to-update-each-dependency-in-package-json-to-the-latest-version/16074029#16074029)
+
+```
+npm i -g npm-check-updates
+ncd -u
+npm install
+```
 
 ## Publish
 
@@ -35,7 +59,7 @@ Reference - [npm registry](https://docs.github.com/en/packages/working-with-a-gi
 - Note that you can have a private repo and a public package. Refer to [access control](https://docs.github.com/en/packages/learn-github-packages/configuring-a-packages-access-control-and-visibility). A user would still require to authenticate via a personal access token though, but would not need access to the org/repo containing the package.
 
 
-### Install
+## Install
 Requires an **access token** even if public; have to [authenticate](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#authenticating-with-a-personal-access-token)
 
 - To `Install` a package
@@ -70,9 +94,27 @@ Requires an **access token** even if public; have to [authenticate](https://docs
  ```
 
 
-### From Repo
+## From Repo
 Reference - https://www.pluralsight.com/guides/install-npm-packages-from-gitgithub
 
 ```
+npm install https://github.com/user_name/node_project_name
+```
+For specific branch add `#branch-name`
+
+Example:
+```
 npm install https://github.com/s2technologies/testspace.test.functions#main
 ```
+
+
+### Notes
+
+- You can install package via repo. The `package.json` will be updated. The repo can thus install using `package.json`. But it will **not** work when using GitHub Workflow. The installation just hangs. Reference [here](https://stackoverflow.com/questions/68887428/npm-in-github-actions-env-not-installing-packages). The **workaround**:
+  - remove the dependency from `package.json`
+  - install in 2 steps in the workflow:
+    ```
+    - run: npm install https://github.com/user_name/node_project_name
+    - run: npm install
+    ```
+- Using a `private` repo is more difficult (requires `ssh`, `key`)
