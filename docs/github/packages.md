@@ -17,6 +17,17 @@ Save packages under teh `devDependencies` object in package .json file. Not inst
 ```
 npm install --save-dev <package name>
 ```
+
+Update an existing package to the latest
+```
+npm update <package name>
+```
+
+Uninstall an existing package
+```
+npm uninstall <package name>
+```
+
 Only production installation
 ```
 npm install --production
