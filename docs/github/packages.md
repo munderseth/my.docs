@@ -34,14 +34,32 @@ npm install --production
 ```
 
 ### Updates
+[Quick Tip: "npm outdated" and "npm update"](https://www.belter.io/npm-outdated-update/)
 
-- Reference info on [stackoverflow](https://stackoverflow.com/questions/16073603/how-to-update-each-dependency-in-package-json-to-the-latest-version/16074029#16074029)
+To check package updating status:
+```
+npm outdated
+```
+
+Update an existing package to the latest
+```
+npm update <package name>
+```
+
+
+Reference info on [stackoverflow](https://stackoverflow.com/questions/16073603/how-to-update-each-dependency-in-package-json-to-the-latest-version/16074029#16074029)
 
 ```
 npm i -g npm-check-updates
 ncd -u
 npm install
 ```
+
+## Sematic Versioning
+Recommended to start with `1.0.0`.
+
+- https://docs.npmjs.com/about-semantic-versioning
+
 
 ## Publish
 

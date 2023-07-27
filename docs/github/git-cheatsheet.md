@@ -4,6 +4,11 @@ sidebar_position: 1
 
 # Git Cheat Sheet
 
+Logs
+```
+git log
+```
+
 ## Staging
 
 Removes unstaged files
