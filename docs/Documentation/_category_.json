@@ -1,4 +1,8 @@
 {
   "label": "Documentation",
-  "position": 3
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Tools for writting content."
+  }
 }
