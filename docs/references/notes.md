@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Misc. Stuff
+# Notes
 
 - [Indenting 2nd lin of List Items](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/)
 
@@ -45,6 +45,12 @@ TBD
 - `transparent background` - nothing in the background pixels
 
 The following is a tool used to convert `img` to `svg` - https://picsvg.com/
+
+
+### Webp to PNG
+
+- File Conversion (i.e. wepb -> png) - https://convertio.co/
+  - use the tool to convert `wepb` to `png`; Safari 13 does not support `wepb`
 
 ## Upgrading WSL
 WSL - Windows Subsystem Linux
