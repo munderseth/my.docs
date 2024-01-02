@@ -9,7 +9,7 @@ Logs
 git log
 ```
 
-## Staging
+### Staging
 
 Removes unstaged files
 ```
@@ -32,7 +32,7 @@ git rebase main
 ```
 Then force push
 ```
-git push -u -f orign working-branch
+git push -u -f origin working-branch
 ```
 
 ### Tag

@@ -1,10 +1,19 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Notes
 
-- [Indenting 2nd lin of List Items](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/)
+## DNS
+Reference article - https://www.hostinger.com/tutorials/what-is-dns
+
+When a name is entered via a brower a mapping to the IP address is required. This is called *DNS lookup* or *DNS resolution*.
+
+- Computer checks if it contains DNS entry via searching its `hosts file` and `cache`
+
+## CSS
+
+- [Indenting 2nd line of List Items](https://silvawebdesigns.com/css-indenting-second-line-li-list-items/)
 
 ## Emojis
 - Hex/HTML Codes - https://dev.to/rodrigoodhin/list-of-emojis-hex-codes-35ma
